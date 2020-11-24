@@ -5,8 +5,6 @@ position:fixed;
 width:100%;
 z-index:1;
 height:auto;
-
-
 }
 #heading-name{
     color:white;
@@ -23,10 +21,10 @@ padding-right: 30px;
     background: url("../images/balu4.jpeg")no-repeat center center/cover;
     width: 100%;
     background-size: cover;
-    height: 100vh;
-    display: grid;
-    align-items: center;
-    position: relative;
+    height:100vh;
+    display:grid;
+    align-items:center;
+    position:relative;
 }
 #nav-btn{
     background-color: rgb(111, 119, 119);
@@ -48,20 +46,6 @@ padding-right: 30px;
   border-radius: 10px;
   border: black;
   background: #fff; }
-
-  .copy-rights{
-    
-    padding-top: 26px;
-
-  }
-  .social-media{
-    padding-top: 26px;
-    padding-right: 123px;
-
-  }
-  .social-med{
-    margin-left: 12px;
-  }
 
 
 
