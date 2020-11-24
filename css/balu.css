@@ -21,8 +21,9 @@ padding-right: 30px;
 }
 #home{
     background: url("../images/balu4.jpeg")no-repeat center center/cover;
+    width: 100%;
     background-size: cover;
-    min-height: 700px;
+    height: 100vh;
     display: grid;
     align-items: center;
     position: relative;
@@ -48,56 +49,24 @@ padding-right: 30px;
   border: black;
   background: #fff; }
 
+  .copy-rights{
+    
+    padding-top: 26px;
+
+  }
+  .social-media{
+    padding-top: 26px;
+    padding-right: 123px;
+
+  }
+  .social-med{
+    margin-left: 12px;
+  }
 
 
 
 
 
-/* 
-      footer */
 
 
-      .w3l-footers-1 {
-        /*-- responsive design --*/
-        /*-- //responsive design --*/ }
-        .w3l-footers-1 .d-grid {
-          display: grid; }
-        .w3l-footers-1 .grid-columns-2 {
-          grid-template-columns: 2.5fr 1fr;
-          grid-column-gap: 20px; }
-        .w3l-footers-1 .align-right {
-          text-align: right; }
-        .w3l-footers-1 .footer {
-          position: relative;
-          background-color: var(--secondary); }
-        .w3l-footers-1 .footer-left p {
-          font-size: 16px;
-          line-height: 26px;
-          color: #aaa; }
-        .w3l-footers-1 .footer-left p a {
-          color: #ccc; }
-        .w3l-footers-1 ul.social li {
-          display: inline-block;
-          margin-left: 20px; }
-        .w3l-footers-1 ul.social li a {
-          color: #aaa; }
-        .w3l-footers-1 ul.social li a:hover {
-          color: var(--primary); }
-        @media (max-width: 992px) {
-          .w3l-footers-1 .footer-content {
-            text-align: center; } }
-        @media (max-width: 737px) {
-          .w3l-footers-1 ul.social li {
-            margin-left: 0px;
-            margin: 0 7px; } }
-        @media (max-width: 480px) {
-          .w3l-footers-1 .footer-right {
-            margin-top: 5px; } }
-        @media (max-width: 415px) {
-          .w3l-footers-1 .footer-left,
-          .w3l-footers-1 .footer-right {
-            text-align: center; }
-          .w3l-footers-1 .grid-columns-2 {
-            grid-template-columns: 1fr;
-            grid-row-gap: 20px; } }
-      
+
